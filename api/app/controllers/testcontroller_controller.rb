@@ -1,6 +1,7 @@
 class TestcontrollerController < ApplicationController
 
   def start 
-    puts 'i hit a route !!!!'
+    render :json => {"code": "200"}
   end
+
 end
